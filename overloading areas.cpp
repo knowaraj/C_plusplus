@@ -21,7 +21,7 @@ int main()
 	cout<<"MENU:"<<endl;
 	cout<<"1.Area of rectangle"<<endl;
 	cout<<"2.Area of triangle"<<endl;
-	cout<<"3.Area of cube"<<endl;
+	cout<<"3.Area  of cube"<<endl;
 	cout<<"4.EXIT"<<endl<<endl;
 	int choice;
 	int a,b,c;
