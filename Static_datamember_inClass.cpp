@@ -1,39 +1,34 @@
 #include<iostream>
 using namespace std;
-
-class test
+class S
 {
 	private:
-		static int p, t, r;
-		
+		static float r;
+		float p,t;
 	public:
-		
-		static void getdata()
+		void get()
 		{
-			cout << "Enter the value of p and t: ";
-			cin >> p >> t;
+			cout << "Enter Principal and Time: ";
+			cin >>p>>t;
 		}
-		void calculatedata()
+		void si()
 		{
-			int si;
-			si = (p * t * r) / 100;
-			cout << "The SI is " << si << endl;
+			float x;
+			x = (p*t*r)/100;
+			cout << "The SI is : " <<x<<endl;
 		}
 };
-
-int test::p = 0; 
-int test::t = 0;
-int test::r = 8;
+float S::r = 8;
 
 int main()
 {
-	test t1,t2,t3;
-	t1.getdata();
-	t1.calculatedata();
-	t2.getdata();
-	t2.calculatedata();
-	t3.getdata();
-	t3.calculatedata();
+	S a,b,c;
+	a.get();
+	a.si();
+	b.get();
+	b.si();
+	c.get();
+	c.si();
 	return 0;
 }
 
