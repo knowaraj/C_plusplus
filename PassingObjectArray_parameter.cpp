@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Add{
+class Sum{
 	private:
 		int a;
 	public:
@@ -9,7 +9,7 @@ class Add{
 			cout<<"Enter value of a : "<<endl;
 			cin>>a;
 		}
-		void calc(Add m[])
+		void calc(Sum m[])
 		{
 			int x=m[0].a+m[1].a+m[2].a;
 			cout<<"The sum is : "<<x;
@@ -17,7 +17,7 @@ class Add{
 };
 int main()
 {
-	Add q[3];
+	Sum q[3];
 	q[0].get();
 	q[1].get();
 	q[2].get();	
