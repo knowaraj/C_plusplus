@@ -14,7 +14,7 @@ class ovrld{
 		{
 			cout<<"The value is : "<<a<<endl;
 		}
-		ovrld operator +(ovrld obj2)
+		ovrld operator *(ovrld obj2)
 		{
 			ovrld obj1;
 			obj1.a=a*obj2.a;
